@@ -453,3 +453,288 @@
 //   return result;
 // }
 // console.log(checkForSpam("JavaScript weekly newsletter"));
+
+// 2 Robota 2
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   if (password === ADMIN_PASSWORD) {
+//     return "Welcome!";
+//   }
+//   return "Access denied, wrong password!";
+// }
+// console.log(checkPassword("fdsf"));
+
+// 2 Robota 3
+// function checkStorage(available, ordered) {
+//   if (ordered === 0) {
+//     return "Your order is empty!";
+//   }
+//   if (ordered > available) {
+//     return "Your order is too large, not enough goods in stock!";
+//   }
+//   return "The order is accepted, our manager will contact you";
+// }
+// console.log(checkStorage(100, 50));
+
+// 2 Robota 4
+// fruits = ["apple", "plum", "pear", "orange"];
+
+// 2 Robota 5
+// const fruits = ["apple", "plum", "pear", "orange"];
+// const firstElement = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length - 1];
+// console.log(firstElement);
+// console.log(secondElement);
+// console.log(lastElement);
+
+// 2 Robota 6
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = "peach";
+// fruits[3] = "banana";
+
+// 2 Robota 7
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const fruitsArrayLength = fruits.length;
+// console.log(fruitsArrayLength);
+
+// 2 Robota 8
+// const fruits = ["apple", "peach", "pear", "banana"];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits[lastElementIndex];
+
+// console.log(lastElementIndex);
+// console.log(lastElement);
+
+// 2 Robota 9
+// function getExtremeElements(array) {
+//   return [array[0], array[array.length - 1]];
+// }
+// console.log(getExtremeElements(["Earth", "Mars", "Venus"]));
+
+// 2 Robota 10
+// function splitMessage(message, delimiter) {
+//   let words;
+//   words = message.split(delimiter);
+
+//   return words;
+// }
+// console.log(splitMessage("Mango hurries to the train", " "));
+
+// 2 Robota 11
+// function calculateEngravingPrice(message, pricePerWord) {
+//   return message.split(" ").length * pricePerWord;
+// }
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+
+// 2 Robota 12
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   string = array.join(delimiter);
+//   return string;
+// }
+// console.log(
+//   makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " ")
+// );
+
+// 2 Robota 13
+// function slugify(title) {
+//   return title.toLowerCase().replace(/ /g, "-");
+// }
+// console.log(slugify("Arrays for begginers"));
+
+// function slugify(title) {
+//   return title
+//     .toLowerCase()
+//     .replace(/ /g, "-")
+//     .replace(/[^a-zA-Z0-9-]/g, "");
+// }
+
+//2 Robota 14
+// const fruits = ["apple", "plum", "pear", "orange", "banana"];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(2, 5);
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+//2 Robota 15
+// const oldClients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// const newClients = ["Peach", "Houston"];
+
+// const allClients = oldClients.concat(newClients);
+
+// console.log(allClients);
+
+//2 Robota 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//   return firstArray.concat(secondArray).slice(0, maxLength);
+// }
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+
+//2 Robota 17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) {
+//   // Change this line
+//   console.log(i);
+// }
+
+//2 Robota 18
+// function calculateTotal(number) {
+//   let sum = 0;
+
+//   for (let i = 1; i <= number; i++) {
+//     sum += i;
+//   }
+
+//   return sum;
+// }
+// console.log(calculateTotal(3));
+
+//2 Robota 19
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// for (let i = 0; i < fruits.length; i += 1) {
+//   const fruit = fruits[i];
+//   console.log(fruit);
+// }
+
+//2 Robota 20
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   for (let i = 0; i < order.length; i++) {
+//     total += order[i];
+//   }
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+//2 Robota 21
+// function findLongestWord(string) {
+//   const stringSplit = string.split(" ");
+//   let longestWord = "";
+
+//   for (const word of stringSplit) {
+//     if (word.length > longestWord.length) {
+//       longestWord = word;
+//     }
+//   }
+//   return longestWord;
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+//2 Robota 22
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   for (let i = min; i <= max; i++) numbers.push(i);
+//   return numbers;
+// }
+// console.log(createArrayOfNumbers(29, 34));
+
+//2 Robota 24
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+//   fruit = fruits.includes(fruit);
+//   return fruit; // Change this line
+// }
+// console.log(checkFruit("bffb"));
+
+//2 Robota 25
+// function getCommonElements(array1, array2) {
+//   let result = [];
+//   for (let i = 0; i < array1.length; i++) {
+//     if (array2.includes(array1[i])) {
+//       result.push(array1[i]);
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
+
+//2 Robota 26
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const item of order) {
+//     total += item;
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+//2 Robota 27
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+// }
+//   // Change code above this line
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+//2 Robota 28
+// function getEvenNumbers(start, end) {
+//   const evenNumbers = [];
+//   for (let i = start; i <= end; i++) {
+//     if (i % 2 === 0) {
+//       evenNumbers.push(i);
+//     }
+//   }
+//   return evenNumbers;
+// }
+// // Change code above this line
+
+//2 Robota 30
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+
+//2 Robota 31
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       number = i;
+//       return number;
+//     }
+//   }
+
+//   // Change code above this line
+// }
+// console.log(findNumber(16, 35, 7));
+
+//2 Robota 32
+
+// function includes(array, value) {
+//   for (let numb of array) {
+//     if (numb === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// console.log(includes([1, 2, 3, 4, 5], 9));
