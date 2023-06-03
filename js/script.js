@@ -738,3 +738,1269 @@
 //   return false;
 // }
 // console.log(includes([1, 2, 3, 4, 5], 9));
+
+//3 Robota 1
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+// };
+
+//3 Robota 2
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+//3 Robota 4
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+//   tags: ["premium", "promoted", "top"],
+//   owner: {
+//     name: "Henry",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+// };
+
+// // Change code below this line
+// const ownerName = apartment.owner.name;
+// const ownerPhone = apartment.owner.phone;
+// const ownerEmail = apartment.owner.email;
+// const numberOfTags = apartment.tags.length;
+// const firstTag = apartment.tags[0];
+// const lastTag = apartment.tags[2];
+// console.log(ownerName);
+// console.log(ownerPhone);
+// console.log(ownerEmail);
+// console.log(numberOfTags);
+// console.log(firstTag);
+// console.log(lastTag);
+
+//3 Robota 7
+// const apartment = {
+//   imgUrl: "https://via.placeholder.com/640x480",
+//   descr: "Spacious apartment in the city center",
+//   rating: 4.7,
+//   price: 5000,
+//   tags: ["premium", "promoted", "top", "trusted"],
+//   owner: {
+//     name: "Henry Sibola",
+//     phone: "982-126-1588",
+//     email: "henry.carter@aptmail.com",
+//   },
+//   area: 60,
+//   rooms: 3,
+//   location: {
+//     country: "Jamaica",
+//     city: "Kingston",
+//   },
+// };
+
+// // Change code below this line
+// apartment.area = 60;
+// apartment.rooms = 3;
+// (apartment.location = "country"), "city";
+// location.country = "Jamaica";
+// location.city = "Kingston";
+// console.log(apartment);
+
+//3 Robota 9
+// const emailInputName = "email";
+// const passwordInputName = "password";
+
+// const credentials = {
+//   [emailInputName]: "henry.carter@aptmail.com",
+//   [passwordInputName]: "jqueryismyjam",
+// };
+// console.log(credentials);
+
+//3 Robota 10
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const keys = [];
+// const values = [];
+// for (const key in apartment) {
+//   keys.push(key);
+//   values.push(apartment[key]);
+// }
+
+//3 Robota 11
+// const keys = [];
+// const values = [];
+// const advert = {
+//   service: "apt",
+// };
+// const apartment = Object.create(advert);
+// apartment.descr = "Spacious apartment in the city center";
+// apartment.rating = 4;
+// apartment.price = 2153;
+
+// for (const key in apartment) {
+//   if (apartment.hasOwnProperty(key)) {
+//     keys.push(key);
+//     values.push(apartment[key]);
+//   }
+
+//   // Change code above this line
+// }
+
+//3 Robota 12
+// function countProps(object) {
+//   let propCount = 0;
+//   for (const key in object) {
+//     if (object.hasOwnProperty(key)) {
+//       propCount += 1;
+//     }
+//   }
+//   return propCount;
+// }
+// console.log(countProps({ mail: "poly@mail.com", isOnline: true, score: 500 }));
+
+//3 Robota 13
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// const values = [];
+// // Change code below this line
+// const keys = Object.keys(apartment);
+
+// for (const key of keys) {
+//   values.push(apartment[key]);
+// }
+
+// console.log(values);
+
+//3 Robota 14
+// function countProps(object) {
+//   let propCount = 0;
+//   for (const key of Object.keys(object)) {
+//     propCount++;
+//   }
+
+//   return propCount;
+// }
+// console.log(countProps({ name: "Mango", age: 2 }));
+
+//3 Robota 15
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+// console.log(keys);
+// console.log(values);
+
+//3 Robota 16
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   for (const salari of Object.values(salaries)) {
+//     totalSalary += salari;
+//   }
+//   return totalSalary;
+// }
+// console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
+
+//3 Robota 17
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// for (const color of colors) {
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
+// // console.log(hexColors);
+
+//3 Robota 18
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   for (const product of products)
+//     if (product.name === productName) return product.price;
+//   return null;
+// }
+
+// console.log(getProductPrice("Droid"));
+
+//3 Robota 19
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+// function getAllPropValues(propName) {
+//   const res = [];
+//   products.forEach((item) => {
+//     if (item.hasOwnProperty(propName)) {
+//       res.push(item[propName]);
+//     }
+//   });
+//   return res;
+// }
+// console.log(getAllPropValues("name"));
+
+//3 Robota 20
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   for (const item of products)
+//     if (item.name === productName) return item.price * item.quantity;
+//   return 0;
+// }
+// console.log(getProductPrice("Grip"));
+
+//3 Robota 21
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// // Change code below this line
+// const { yesterday, today, tomorrow } = highTemperatures;
+
+// // Change code above this line
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+// console.log(meanTemperature);
+
+//3 Robota 22
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const {
+//   yesterday,
+//   today,
+//   tomorrow,
+//   icon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+// } = highTemperatures;
+// const meanTemperature = (yesterday + today + tomorrow) / 3;
+
+//3 Robota 23
+// const highTemperatures = {
+//   yesterday: 28,
+//   today: 26,
+//   tomorrow: 33,
+// };
+// const {
+//   yesterday: highYesterday,
+//   today: highToday,
+//   tomorrow: highTomorrow,
+//   icon: highIcon,
+// } = highTemperatures;
+// const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
+// console.log(highYesterday);
+
+//3 Robota 24
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+
+// for (const { hex, rgb } of colors) {
+//   hexColors.push(hex);
+//   rgbColors.push(rgb);
+// }
+// console.log(hexColors, rgbColors);
+
+//3 Robota 25
+// const forecast = {
+//   today: {
+//     low: 28,
+//     high: 32,
+//     icon: "https://www.flaticon.com/svg/static/icons/svg/861/861059.svg",
+//   },
+//   tomorrow: {
+//     low: 27,
+//     high: 31,
+//   },
+// };
+// const {
+//   today: {
+//     low: lowToday,
+//     high: highToday,
+//     icon: todayIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+//   },
+//   tomorrow: {
+//     low: lowTomorrow,
+//     high: highTomorrow,
+//     icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
+//   },
+// } = forecast;
+// console.log(forecast);
+
+//3 Robota 26
+// function calculateMeanTemperature(forecast) {
+//   const {
+//     today: { low: todayLow, high: todayHigh },
+//     tomorrow: { low: tomorrowLow, high: tomorrowHigh },
+//   } = forecast;
+
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+// console.log(
+//   calculateMeanTemperature({
+//     today: { low: 37, high: 40 },
+//     tomorrow: { low: 33, high: 38 },
+//   })
+// );
+
+//3 Robota 28
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+// const allScores = [
+//   ...firstGroupScores,
+//   ...secondGroupScores,
+//   ...thirdGroupScores,
+// ];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+// console.log(bestScore, worstScore, allScores);
+
+//3 Robota 29
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = { ...defaultSettings, ...overrideSettings };
+// console.log(finalSettings.withPassword);
+
+//3 Robota 30
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+//   let res = {category, priority, ...data, completed,};
+//   return res;
+//   // Change code above this line
+// }
+// console.log(
+//   makeTask({
+//     category: "Homemade",
+//     priority: "Low",
+//     text: "Take out the trash",
+//   })
+// );
+
+//3 Robota 31
+// function add(...args) {
+//   let total = 0;
+//   for (const arg of args) {
+//     total += arg;
+//   }
+//   return total;
+// }
+
+// console.log(add(12, 4, 11, 48));
+
+//3 Robota 32
+// function addOverNum(num, ...args) {
+//   let sum = 0;
+
+//   for (let i = 0; i < args.length; i++) {
+//     if (args[i] > num) {
+//       sum += args[i];
+//     }
+//   }
+
+//   return sum;
+// }
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+
+//3 Robota 33
+// function findMatches(allowedNumbers, ...args) {
+//   const matches = []; // Don't change this line
+
+//   for (let arg of args) {
+//     if (allowedNumbers.includes(arg)) {
+//       matches.push(arg);
+//     }
+//   }
+
+//   // Change code above this line
+//   return matches;
+// }
+
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
+
+//3 Robota 34
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
+//   },
+//   // Change code above this line
+// };
+
+// console.log(bookShelf.removeBook("Red sunset"));
+
+//3 Robota 35
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     const index = this.books.indexOf(oldName);
+//     if (index !== -1) {
+//       this.books.splice(index, 1, newName);
+//     }
+//   },
+// };
+
+// console.log(bookShelf.updateBook("The last kingdom", "Dune"));
+
+//3 Robota 36
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   }, // Change code above this line
+// };
+// console.log(atTheOldToad.getPotions());
+
+//3 Robota 39
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     this.potions.splice(this.potions.indexOf(potionName), 1);
+//   },
+// };
+//3 Robota 40
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     const index = this.potions.indexOf(oldName);
+//     if (index !== -1) {
+//       this.potions.splice(index, 1, newName);
+//     }
+//   },
+// };
+// console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
+
+//3 Robota 41
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   getPotions() {
+//     return this.potions;
+//   },
+
+//   addPotion(newPotion) {
+//     const potionNames = this.potions.map((potion) => potion.name);
+
+//     if (potionNames.includes(newPotion.name)) {
+//       return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//     }
+
+//     this.potions.push(newPotion);
+//   },
+
+//   removePotion(potionName) {
+//     this.potions = this.potions.filter((potion) => potion.name !== potionName);
+//   },
+
+//   updatePotionName(oldName, newName) {
+//     const potion = this.potions.find((potion) => potion.name === oldName);
+
+//     if (!potion) {
+//       return `Potion ${oldName} is not in inventory!`;
+//     }
+
+//     potion.name = newName;
+//   },
+// };
+
+// console.log(atTheOldToad.addPotion({ name: "Dragon breath", price: 700 }));
+
+//4 Robota 1
+// function makePizza() {
+//   return "Your pizza is being prepared, please wait.";
+// }
+// // Change code below this line
+
+// const result = makePizza();
+// const pointer = makePizza;
+
+//4 Robota 2
+// function deliverPizza(pizzaName) {
+//   return `Delivering ${pizzaName} pizza.`;
+// }
+
+// function makePizza(pizzaName) {
+//   return `Pizza ${pizzaName} is being prepared, please wait...`;
+// }
+
+// // Chande code below this line
+// function makeMessage(pizzaName, callback) {
+//   return callback(pizzaName);
+// }
+// console.log(makeMessage("Ultracheese", deliverPizza));
+
+//4 Robota 3
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
+
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}.`);
+// });
+// // Change code below this line
+
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+//   console.log(`Eating pizza ${pizzaName}.`);
+// });
+
+//4 Robota 4
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onSuccess, onError) {
+//     if (this.pizzas.includes(pizzaName)) {
+//       return onSuccess(pizzaName);
+//     }
+//     return onError(
+//       `There is no pizza with a name ${pizzaName} in the assortment.`
+//     );
+//   },
+// };
+
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// console.log(pizzaPalace.order("Smoked", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Four meats", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Big Mike", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Vienna", makePizza, onOrderError));
+
+//4 Robota 5
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+//   for (let i = 0; i < orderedItems.length; i += 1) {
+//     totalPrice += orderedItems[i];
+//   }
+
+//   orderedItems.forEach(function callback() {});
+
+//   // Change code above this line
+//   return totalPrice;
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+//4 Robota 6
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       filteredNumbers.push(numbers[i]);
+//     }
+//   }
+//   filteredNumbers.forEach(function callback() {});
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+//4 Robota 7
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//   for (let i = 0; i < firstArray.length; i += 1) {
+//     if (secondArray.includes(firstArray[i])) {
+//       commonElements.push(firstArray[i]);
+//     }
+//   }
+// commonElements.forEach(function callback() {});
+//   return commonElements;
+//   // Change code above this line
+// }
+
+//4 Robota 8
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//   // Change code above this line
+//   return quantity * pricePerItem;
+// };
+// console.log(calculateTotalPrice(5, 100));
+
+//4 Robota 10
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach((item) => {
+//     totalPrice += item;
+//   });
+
+//   return totalPrice;
+// };
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]));
+
+//4 Robota 11
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
+
+//   numbers.forEach((number) => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// };
+// console.log(filterArray([1, 2, 3, 4, 5], 3));
+
+//4 Robota 12
+// const getCommonElements = (firstArray, secondArray) => {
+//   const commonElements = [];
+
+//   firstArray.forEach((element) => {
+//     if (secondArray.includes(element)) {
+//       commonElements.push(element);
+//     }
+//   });
+
+//   // Change code above this line
+//   return commonElements;
+// };
+// console.log(getCommonElements([1, 2, 3], [2, 4]));
+
+//4 Robota 13
+// function changeEven(numbers, value) {
+//   const newArray = [];
+//   numbers.forEach((element) => {
+//     if (element % 2 === 0) {
+//       element += value;
+//     }
+//     newArray.push(element);
+//   });
+//   return newArray;
+// }
+// console.log(changeEven([2, 8, 3, 7, 4, 6], 10));
+
+//4 Robota 14
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+// // Change code below this line
+// const planetsLengths = planets.map((planet) => planet.length);
+
+// console.log(planetsLengths);
+
+//4 Robota 15
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// // Change code below this line
+
+// const titles = books.map((books) => books.title);
+// console.log(titles);
+
+//4 Robota 16
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["adventure", "history"],
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     genres: ["fiction"],
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     genres: ["horror", "mysticism"],
+//   },
+// ];
+// // Change code below this line
+
+// const genres = books.flatMap((books) => books.genres);
+// console.log(genres);
+
+//4 Robota 17
+// const getUserNames = (users) => users.map((user) => user.name);
+// users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     skills: ["ipsum", "lorem"],
+//     gender: "male",
+//     age: 37,
+//   },
+//
+
+// console.log(getUserNames(users));
+
+//4 Robota 18
+// const getUserEmails = (users) => users.map((users) => users.email);
+// users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     skills: ["ipsum", "lorem"],
+//     gender: "male",
+//     age: 37,
+//   },
+// ];
+
+// console.log(getUserEmails(users));
+
+//4 Robota 19
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// // Change code below this line
+
+// const evenNumbers = numbers.filter((numbers) => numbers % 2 === 0);
+// const oddNumbers = numbers.filter((numbers) => numbers % 2 !== 0);
+
+// console.log(evenNumbers);
+// console.log(oddNumbers);
+
+//4 Robota 20
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["adventure", "history"],
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     genres: ["fiction", "mysticism"],
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     genres: ["horror", "mysticism", "adventure"],
+//   },
+// ];
+// // Change code below this line
+// const allGenres = books.flatMap((books) => books.genres);
+// const uniqueGenres = allGenres.filter(
+//   (genres, index, array) => array.indexOf(genres) === index
+// );
+
+// console.log(allGenres);
+// console.log(uniqueGenres);
+
+//4 Robota 21
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+
+// const MIN_RATING = 8;
+// const AUTHOR = "Bernard Cornwell";
+// // Change code below this line
+
+// const topRatedBooks = books.filter((books) => books.rating >= MIN_RATING);
+// const booksByAuthor = books.filter((books) => books.author === AUTHOR);
+
+//4 Robota 22
+// const getUsersWithEyeColor = (users, color) => {
+//   return users.filter(({ eyeColor }) => eyeColor === color);
+// };
+
+//4 Robota 23
+// const getUsersWithAge = (users, minAge, maxAge) => {
+//   return users.filter(({ age }) => age >= minAge && age <= maxAge);
+// };
+
+//4 Robota 24
+// const getUsersWithFriend = (users, friendName) => {
+//  return users.filter((user) => user.friends.includes(friendName));
+// };
+
+//4 Robota 25
+// const getFriends = (users) => {
+//   const allFriends = users.flatMap((user) => user.friends);
+//   const uniqueFriends = [...new Set(allFriends)];
+//   return uniqueFriends;
+// };
+
+//4 Robota 26
+// const getActiveUsers = (users) => {
+//   return users.filter((user) => user.isActive === true);
+// };
+
+//4 Robota 27
+//  const getActiveUsers = (users) => {
+//   return users.filter((user) => user.isActive === false);
+// };
+
+//4 Robota 28
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+// ];
+// const BOOK_TITLE = "The Dream of a Ridiculous Man";
+// const AUTHOR = "Robert Sheckley";
+// // Change code below this line
+
+// const bookWithTitle = books.find(
+//   (book) => book.title === "The Dream of a Ridiculous Man"
+// );
+// const bookByAuthor = books.find((book) => book.author === "Robert Sheckley");
+
+//4 Robota 29
+// const getUserWithEmail = (users, email) => {
+//     return users.find(({ email: userEmail }) => userEmail === email);
+// };
+
+//4 Robota 30
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Change code below this line
+
+// const eachElementInFirstIsEven = firstArray.every((el) => el % 2 === 0);
+// const eachElementInFirstIsOdd = firstArray.every((el) => el % 2 !== 0);
+
+// const eachElementInSecondIsEven = secondArray.every((el) => el % 2 === 0);
+// const eachElementInSecondIsOdd = secondArray.every((el) => el % 2 !== 0);
+
+// const eachElementInThirdIsEven = thirdArray.every((el) => el % 2 === 0);
+// const eachElementInThirdIsOdd = thirdArray.every((el) => el % 2 !== 0);
+// console.log(eachElementInThirdIsEven);
+// console.log(eachElementInThirdIsOdd);
+
+//4 Robota 31
+// const isEveryUserActive = (users) => {
+//   return users.every((user) => user.isActive);
+// };
+
+//4 Robota 32
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Change below this line
+
+// const anyElementInFirstIsEven = firstArray.some((el) => el % 2 === 0);
+// const anyElementInFirstIsOdd = firstArray.some((el) => el % 2 !== 0);
+
+// const anyElementInSecondIsEven = secondArray.some((el) => el % 2 === 0);
+// const anyElementInSecondIsOdd = secondArray.some((el) => el % 2 !== 0);
+
+// const anyElementInThirdIsEven = thirdArray.some((el) => el % 2 === 0);
+// const anyElementInThirdIsOdd = thirdArray.some((el) => el % 2 !== 0);
+// console.log(anyElementInFirstIsEven);
+// console.log(anyElementInFirstIsOdd);
+// console.log(anyElementInSecondIsEven);
+// console.log(anyElementInSecondIsOdd);
+// console.log(anyElementInThirdIsEven);
+// console.log(anyElementInThirdIsOdd);
+
+//4 Robota 33
+// const isAnyUserActive = (users) => {
+//   return users.some((user) => user.isActive);
+// };
+
+//4 Robota 34
+// const players = {
+//   mango: 1270,
+//   poly: 468,
+//   ajax: 710,
+//   kiwi: 244,
+// };
+// const playtimes = Object.values(players); // [1270, 468, 710, 244]
+// // Change code below this line
+
+// const totalPlayTime = playtimes.reduce((previousValue, number) => {
+//   return previousValue + number;
+// }, 0);
+
+// // Change code above this line
+// const averagePlayTime = totalPlayTime / playtimes.length;
+// console.log(averagePlayTime);
+
+//4 Robota 35
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
+
+// const totalAveragePlaytimePerGame = players.reduce((total, player) => {
+//   return total + player.playtime / player.gamesPlayed;
+// }, 0);
+// console.log(totalAveragePlaytimePerGame);
+
+//4 Robota 36
+// const calculateTotalBalance = (users) => {
+//   return users.reduce((totalBalance, user) => {
+//     return totalBalance + user.balance;
+//   }, 0);
+// };
+// console.log(calculateTotalBalance(users));
+
+//4 Robota 37
+// const getTotalFriendCount = (users) => {
+//   return users.reduce((totalFriends, user) => {
+//     return (user.friends.length += totalFriends);
+//   }, 0);
+// };
+// console.log(getTotalFriendCount(users));
+
+//4 Robota 38
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+// ];
+// // Change code below this line
+// const ascendingReleaseDates = releaseDates.sort();
+// const alphabeticalAuthors = [...authors].sort();
+// console.log(ascendingReleaseDates);
+// console.log(alphabeticalAuthors);
+
+//4 Robota 39
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// // Change code below this line
+// const ascendingReleaseDates = [...releaseDates].sort();
+// const descendingReleaseDates = [...releaseDates].sort((a, b) => b - a);
+// console.log(ascendingReleaseDates);
+// console.log(descendingReleaseDates);
+
+//4 Robota 40
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+//   "Howard Lovecraft",
+// ];
+// // Change code below this line
+// const authorsInAlphabetOrder = [...authors].sort();
+// const authorsInReversedOrder = [...authors].sort((a, b) => b.localeCompare(a));
+// console.log(authorsInAlphabetOrder);
+// console.log(authorsInReversedOrder);
+
+//4 Robota 41
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// // Change code below this line
+// const sortedByAuthorName = [...books].sort((firstBook, secondBook) =>
+//   firstBook.author.localeCompare(secondBook.author)
+// );
+// const sortedByReversedAuthorName = [...books].sort((firstBook, secondBook) =>
+//   secondBook.author.localeCompare(firstBook.author)
+// );
+// const sortedByAscendingRating = [...books].sort(
+//   (firstBook, secondBook) => firstBook.rating - secondBook.rating
+// );
+// const sortedByDescentingRating = [...books].sort(
+//   (firstBook, secondBook) => secondBook.rating - firstBook.rating
+// );
+// console.log(sortedByDescentingRating);
+
+//4 Robota 42
+// const sortByAscendingBalance = (users) => {
+//   return users.sort(
+//     (firstUsers, secondUsers) => firstUsers.balance - secondUsers.balance
+//   );
+// };
+
+//4 Robota 43
+// const sortByDescendingFriendCount = (users) => {
+//   return users.sort((a, b) => b.friends.length - a.friends.length);
+// };
+// console.log(sortByDescendingFriendCount(users));
+
+//4 Robota 44
+// const sortByName = (users) => {
+//   return [...users].sort((a, b) => a.name.localeCompare(b.name));
+// };
+// console.log(sortByName(users));
+
+//4 Robota 45
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+// const names = [...books]
+//   .sort((a, b) => a.author.localeCompare(b.author))
+//   .filter((books) => books.rating >= MIN_BOOK_RATING)
+//   .map((books) => books.author);
+// console.log(names);
+
+//4 Robota 46
+// const getNamesSortedByFriendCount = (users) => {
+//   const sortedUsers = [...users].sort(
+//     (a, b) => a.friends.length - b.friends.length
+//   );
+//   const sortedNames = sortedUsers.map((user) => user.name);
+//   return sortedNames;
+// };
+// console.log(getNamesSortedByFriendCount(users));
+
+//4 Robota 47
+// const getSortedFriends = (users) => {
+//   const requestFriends = users
+//     .flatMap((user) => user.friends)
+//     .filter((friend, index, array) => array.indexOf(friend) === index);
+//   return requestFriends.sort((a, b) => a.localeCompare(b));
+// };
+// console.log(getSortedFriends(users));
+
+//4 Robota 48
+// const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male",
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female",
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male",
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female",
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong", "Adrian Cross"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male",
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: [
+//       "Jacklyn Lucas",
+//       "Linda Chapman",
+//       "Adrian Cross",
+//       "Solomon Fokes",
+//     ],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male",
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female",
+//   },
+// ];
+// const getTotalBalanceByGender = (users, gender) => {
+//   return users.reduce(
+//     (totalBalance, usr) => totalBalance + usr.balance * (usr.gender === gender),
+//     0
+//   );
+// };
+
+// console.log(getTotalBalanceByGender(users, "male"));
+
+//5 Robota 1
